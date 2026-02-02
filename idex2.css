@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body{
+    background-image:linear-gradient(to top, #283618, #DDA15E) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+h1{
+    
+}
+main{
+    margin: 0px 30px ;
+    width: 90%;
+    background-image:linear-gradient(to bottom, #BC6C25);
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    
+}
+
+#entrada> form{
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+    
+}
+
+
+main p {
+    padding-top: 5px;
+    margin-left:60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #022b02;
+    font-size: 1.8em;
+    display: inline-flex;
+}
+ #saida{
+    display: inline-block;
+    border-radius: 0px 0px 20px 20px;
+   
+}
+
+#saida input {
+    width:25px;
+   
+}
+

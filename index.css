@@ -87,8 +87,8 @@ main{
 }
 .Lista a:hover{
     border: 0.1px solid white;
-    transform: translate(1%, 2%);
+    transform: translate(-1%, -2%);
     box-shadow: 2px 5px rgba(0, 0, 0, 0.623);
-    transition: border 0.1s ;
+    transition: border 0.1s, transform 0.1s ;
 }
 

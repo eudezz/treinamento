@@ -12,9 +12,11 @@ h1{
 main{
     margin: 0px 30px ;
     width: 90%;
+    height: 80vh;
     background-image:linear-gradient(to bottom, #BC6C25);
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    border-radius: 20px;
+    border-radius: 20px; 
+   
     
 }
 
@@ -33,7 +35,10 @@ main p {
     color: #022b02;
     font-size: 1.8em;
     display: inline-flex;
+  
 }
+
+
  #saida{
     display: inline-block;
     border-radius: 0px 0px 20px 20px;
@@ -43,5 +48,15 @@ main p {
 #saida input {
     width:25px;
    
+}
+#Limpar{
+    border-radius: 40%;
+    padding: 7px;
+    position: absolute;
+    bottom:7%;
+    right:7% ;
+    
+
+
 }
 

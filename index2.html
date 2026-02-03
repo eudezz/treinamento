@@ -3,34 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista</title>
     <link rel="stylesheet" href="idex2.css">
     
 </head>
 <body>
     <header>
         <h1>
-                Lista de Tarefas
+                Listas.
             </h1>
     </header>
     <main>
         <section id="entrada"  >
             <form action="index2.php" method="post">
-                <label for="iEnter"> Adicione algo a Lista : <br>
+                <label for="iEnter" id="fixo"> Adicione algo a Lista : <br>
                     <input type="text" name="Enter" id="iEnter">
                 </label>
-                <input type="button" value="Salva" ondblclick="salvo()"
+                <input type="button" value="Salva" onclick="salvo()"
                 >
+               
             </form>
         </section>
 
-        <div id="saida">
-
+        
+            <div id="saida">
             
-
-        </div>
+            
+            
+            </div>
+            <input id="Limpar" type="button" value="Limpar" onclick="Limpar()">
        
     </main>
+         
 </body>
 <script src="idex2.js"></script>
 </html>

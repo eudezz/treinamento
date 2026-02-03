@@ -74,6 +74,7 @@ main{
     
 }
 .Lista a {
+    width:150px ;
     display: inline-flex;
     font-size: 2em;
     margin: auto;

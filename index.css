@@ -71,6 +71,7 @@ main{
     columns: 3 300px;
 }
 .Lista a {
+    width:30% ;
     font-size: 2em;
     margin: auto;
     text-decoration: none;

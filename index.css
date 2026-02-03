@@ -68,9 +68,10 @@ main{
     display: inline-flex;
     background-color: rgba(245, 245, 245, 0.349);
     width: 100%;
-    columns: 3 300px;
+    
 }
 .Lista a {
+    columns: 2;
     width:30% ;
     font-size: 4vw;
     margin: auto;

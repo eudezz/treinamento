@@ -32,21 +32,24 @@ section{
 p img:hover{
     border:  1px, dashed white;
     border-radius: 50%;
+    
 }
 h1{
     padding: 10px;
 }
 
 main{
+    
     padding-top: 20px;
     margin: 20px;
     height: 100vh;
     background-color:#577590 ;
     border-radius: 20px;
-     box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.534);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.534);
 }
 .cont{
     display: inline-flex;
+    background-color:#577590 ;
 }
 .texto{
         height: 180%;

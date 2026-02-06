@@ -5,9 +5,10 @@
     var Ientre= document.getElementById("iEnter")
     
     if (Ientre.value.trim()){
-        Saida.innerHTML +=`<p>  <input type="checkbox">${Ientre.value}</p> `
+        Saida.innerHTML +=`<p>  <input type="checkbox">${Ientre.value} </p> `
         Saida.style.backgroundColor = ("#BC6C25")
         Ientre.value=""
+        
     }
 
 }

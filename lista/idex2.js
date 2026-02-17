@@ -10,6 +10,8 @@
         Ientre.value=""
         
     }
+    
+
 
 }
 function Limpar() {

@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --ColorVredeRex:#44CF6C;
+    --ColorMarronBoch:#38302E;
+    --ColorAzulAcinzent:#9CAEA9;
+    --ColorRozeta:#FF715B;
+}
+body{
+    background-color:var(--ColorMarronBoch) ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+main{
+    
+    background-color: var(--ColorAzulAcinzent);
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ .cabeçalho{
+    position: sticky;
+    text-align: center;
+    padding: 4px;
+    
+    
+    
+}
+ .cabeçalho>.texto, .botao{
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+
+}
+.cabeçalho> h1{
+   
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.cabeçalho>.botao{
+    width: 30%;
+}
+
+.cabeçalho>.botao:hover{
+    background-color:var(--ColorVredeRex) ;
+}
+
+.cabeçalho>.texto{
+    border-radius: 20px;
+    text-align: center;
+}
+.cabeçalho > input:hover{
+    scale: 1.1;
+    margin: 0px 15px;
+}
+
+/* Fora da tag main */
+
+#saida{
+        width: 400px;
+       height: auto;
+        font-family: 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        /* margin-top: 50px; */
+    } 
+#saida p{
+    
+        padding:6px;
+        background-color: var(--ColorAzulAcinzent);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 5px;
+        border-radius:10px;
+        display: flex;
+  
+    
+   
+}
+#saida p> input{
+    margin-right: 10px;
+  
+    
+ 
+}
+
+#saida .item:hover{
+    background-color: var(--ColorRozeta);
+}
+
+#botaoclose{
+    cursor: pointer;
+}
+
+.imagem{
+    width: 70px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.imagem:hover{
+    width: 200px;
+    height: 100%;
+    
+}

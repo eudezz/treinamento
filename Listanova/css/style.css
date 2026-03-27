@@ -10,17 +10,18 @@
     --ColorAzulAcinzent:#9CAEA9;
     --ColorRozeta:#FF715B;
 }
-body{
+body,html{
     background-color:var(--ColorMarronBoch) ;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 
 }
-main{
-    
+
+
+ .cabeçalho{
+    position: sticky;
+    text-align: center;
+    padding: 4px;
     background-color: var(--ColorAzulAcinzent);
     width: 400px;
     height: 200px;
@@ -28,13 +29,6 @@ main{
     margin-bottom: 0px;
     border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
- .cabeçalho{
-    position: sticky;
-    text-align: center;
-    padding: 4px;
-    
     
     
 }
@@ -51,6 +45,7 @@ main{
 }
 .cabeçalho>.botao{
     width: 30%;
+    margin-top: 10px;
 }
 
 .cabeçalho>.botao:hover{
@@ -61,31 +56,44 @@ main{
     border-radius: 20px;
     text-align: center;
 }
-.cabeçalho > input:hover{
+.cabeçalho > input[type="text"]:hover{
     scale: 1.1;
     margin: 0px 15px;
 }
 
-/* Fora da tag main */
+.cabeçalho .botao:active{
+    background-color: red;
+    transform: scale(0.92);
+    
+}
+
+
+main{
+    width: 450px;
+    height: 100vh; 
+    margin-top:50px;
+    margin:0 auto;
+  
+   
+    
+}
+
 
 #saida{
+        margin: 20px auto;
         width: 400px;
-       height: auto;
+        height: auto;
         font-family: 'Times New Roman', Times, serif;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 10px;
+        border-radius: 10px ;
         display: flex;
         flex-wrap: wrap;
         padding: 10px;
-        /* margin-top: 50px; */
+        
     } 
 #saida p{
-    
+        
         padding:6px;
-        background-color: var(--ColorAzulAcinzent);
+        
         border-radius: 10px;
         padding: 5px;
         margin: 5px;
@@ -95,20 +103,33 @@ main{
     
    
 }
+
 #saida p> input{
     margin-right: 10px;
   
     
  
 }
-
-#saida .item:hover{
-    background-color: var(--ColorRozeta);
+#item{
+    font-size: 18px;
+    color: var(--ColorMarronBoch);
+    font-weight: bold;
+    background-color: var(--ColorAzulAcinzent);
 }
+#item{
+    margin-top: 20px;
+}
+#item:focus{
+    
+    outline: none;
+    transform: scale(2);
+}
+
 
 #botaoclose{
     cursor: pointer;
 }
+
 
 .imagem{
     width: 70px;
@@ -116,8 +137,4 @@ main{
     object-fit: cover;
     border-radius: 10px;
 }
-.imagem:hover{
-    width: 200px;
-    height: 100%;
-    
-}
+ 
